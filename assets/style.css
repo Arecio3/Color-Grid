@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    /* Makes it a box */
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    background-color: #1d1d1d;
+    margin: 2px;
+}
